@@ -78,7 +78,10 @@ public class LongestSubArray {
 			System.out.println("Longest sub-array is of length " + array.length);
 		}
 		else {
+<<<<<<< HEAD
 			
+=======
+>>>>>>> 5fe8d02e7a11c56d1835ba6f4a411739daff90f7
 			int[] subArray = new int[array.length - 1];
 			int j = 1;
 			for (int i = 0; i < subArray.length; i++) {
@@ -87,7 +90,10 @@ public class LongestSubArray {
 			}
 			LOGGER.info(">> Removed first element from array");
 			findLongestSubArray(subArray, x);
+<<<<<<< HEAD
 			
+=======
+>>>>>>> 5fe8d02e7a11c56d1835ba6f4a411739daff90f7
 		}
 	}
 	/*
